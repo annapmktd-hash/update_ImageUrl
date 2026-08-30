@@ -108,7 +108,7 @@ def main():
         row_id = row["id"]
 
         thumbnail = row.get("Thumbnail")
-        youtube_url = row.get("url")
+        youtube_url = row.get("Url")
 
         # Só processa linhas sem Thumbnail
         if thumbnail:
